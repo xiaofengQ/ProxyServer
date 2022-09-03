@@ -2,7 +2,7 @@
 pkill -9 YouMiIpServer
 cd /tmp
 rm -f youmi.tar.gz
-cp /root/youmi.tar.gz /tmp/youmi.tar.gz
+wget -c https://raw.githubusercontent.com/xiaofengQ/ProxyServer/main/youmi.tar.gz
 tar zxvf youmi.tar.gz
 rm -rf /root/youmi
 mv youmi /root/
